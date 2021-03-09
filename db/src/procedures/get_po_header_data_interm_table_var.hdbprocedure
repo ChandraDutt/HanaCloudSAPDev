@@ -1,4 +1,4 @@
-PROCEDURE "get_po_header_data"(
+PROCEDURE "get_po_header_data_out_parallel"(
     OUT EX_PO_CREATE_CNT TABLE(
            CREATE_CNT INTEGER,
            "CREATEDBY" NVARCHAR(255)),
